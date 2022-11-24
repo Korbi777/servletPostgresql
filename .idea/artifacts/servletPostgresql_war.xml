@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="servletPostgresql:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>servletPostgresql</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="servletPostgresql-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="servletPostgresql:war exploded" />
+    </root>
+  </artifact>
+</component>
